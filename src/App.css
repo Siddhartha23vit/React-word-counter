@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.word-counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.white-box {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.word-count {
+  font-size: 18px;
+  float: left;
+}
